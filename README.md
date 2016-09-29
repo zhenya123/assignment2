@@ -51,3 +51,7 @@ The assignment can be about anything you want as well. Whatever information you 
  ## Please contact me with any questions
  
  This will be due by midnight on the date stated in the syllabus
+ 
+ ALso remember your first and last name need to be in your pull request somewhere so something like below:
+ 
+ `Matt Bowytz CS1520 Assignment2`
