@@ -25,7 +25,7 @@ The assignment can be about anything you want as well. Whatever information you 
  - you will need to put an index.html file at the root to display the page
  
 ***2. Your `index.html` file will contain the following:***
- - all necessary components
+ - the form and all necessary components
    - attributes, etc
    - submit mechanism
    - any type of inputs you want to use
