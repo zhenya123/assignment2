@@ -20,46 +20,46 @@ h3 {
 h2:after {
   content:' ';
   display:block;
-  border:1em solid #234577;
+  border:1px solid #234577;
 }
 
 input {
   border: none;
-  padding: 4em 5em 6em;
-  margin: 8em;
-  width: 250em;
+  padding: 4px 5px 6px;
+  margin: 8px;
+  width: 250px;
 }
 
 select {
   border: none;
   font-weight: 300;
   font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 13em;
-  margin: 8em;
-  width: 250em;
+  font-size: 13px;
+  margin: 8px;
+  width: 250px;
 }
 
 label {
   font-weight: 300;
   font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 15em;
+  font-size: 15px;
   color: #234577;
 }
 
 p {
   font-weight: 300;
   font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 45em;
+  font-size: 45px;
   color: #234577;
 }
 
 button {
   color: #ffffff;
-  padding: 10em;
-  border-radius: 4em;
+  padding: 10px;
+  border-radius: 4px;
   text-transform: uppercase;
   border: none;
-  margin: 14em 0 28em;
+  margin: 14px 0 28px;
   background-color: #234577;
   font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -84,15 +84,15 @@ form {
 .regularMessage {
   display: none;
   text-align: center;
-  padding: 100em 100em 100em;
+  padding: 100px 100px 100px;
 }
 
 .error {
   font-weight: 300;
   font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 15em;
+  font-size: 15px;
   color: #234577;
-  margin-top: 5em;
+  margin-top: 5px;
   color: red;
-  font-size: 13em;
+  font-size: 13px;
 }
