@@ -1,0 +1,98 @@
+/*By Zhenya Lindsay. Assignment 2*/
+
+
+body {
+  background-image: url("../images/blue-background.jpg");
+}
+
+h2 {
+  font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #234577;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #234577;
+  font-weight: 200;
+}
+
+h2:after {
+  content:' ';
+  display:block;
+  border:1em solid #234577;
+}
+
+input {
+  border: none;
+  padding: 4em 5em 6em;
+  margin: 8em;
+  width: 250em;
+}
+
+select {
+  border: none;
+  font-weight: 300;
+  font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 13em;
+  margin: 8em;
+  width: 250em;
+}
+
+label {
+  font-weight: 300;
+  font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 15em;
+  color: #234577;
+}
+
+p {
+  font-weight: 300;
+  font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 45em;
+  color: #234577;
+}
+
+button {
+  color: #ffffff;
+  padding: 10em;
+  border-radius: 4em;
+  text-transform: uppercase;
+  border: none;
+  margin: 14em 0 28em;
+  background-color: #234577;
+  font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+form {
+  display: block;
+  margin-top: 2em;
+  margin-left: 10em;
+  margin-right: 10em;
+  background-color: #eef7fa;
+  padding-left: 10em;
+  padding-top: 5em;
+  padding-right: 10em;
+  padding-bottom: 5em;
+}
+
+.message {
+  display: none;
+  text-align: center;
+}
+
+.regularMessage {
+  display: none;
+  text-align: center;
+  padding: 100em 100em 100em;
+}
+
+.error {
+  font-weight: 300;
+  font-family: 'neue-helvetica', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 15em;
+  color: #234577;
+  margin-top: 5em;
+  color: red;
+  font-size: 13em;
+}

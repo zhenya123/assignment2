@@ -1,0 +1,64 @@
+<!-- By Zhenya Lindsay. Assignment 2 -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="css/myCss.css">
+  </head>
+  <body>
+    <form name="fakeForm" class="fakeForm">
+
+      <h2>See Your Future</h2>
+      <h3>Can we guess what will happen to you on November 23rd, 2017 based on 5 simple questions?</h3>
+      <h3>Take this test to find out!</h3>
+      <p id="errorMessage" class="error"></p>
+
+      <label>What car make do you drive?</label>
+      <select id="car">
+        <option value="selectOne">Select One</option>
+        <option value="toyota">Toyota</option>
+        <option value="ford">Ford</option>
+        <option value="chevy">Chevy</option>
+        <option value="other">Other</option>
+        <option value="hippie">Earth is dying, I ride a bus/bike</option>
+      </select>
+      <p id="errorMessageCar" class="error"></p>
+
+      <label>What kind of tomatoes is the best?</label>
+      <select id="tomato">
+        <option value="selectOne">Select One</option>
+        <option value="roma">Roma</option>
+        <option value="salad">Salad</option>
+        <option value="cherry">Cherry</option>
+        <option value="regular">Regular</option>
+        <option value="tomato-hater">I am a tomato-hater and a terrible person</option>
+      </select>
+      <p id="errorMessageTomato" class="error"></p>
+
+      <label>What is your first name?</label>
+      <input type="text" name="firstName" id="firstName" placeholder="Enter your first name"><br>
+      <p id="errorMessageFirstName" class="error"></p>
+
+      <label>What is your last name?</label>
+      <input type="text" name="lastName" placeholder="Enter your last name"><br>
+      <p id="errorMessageLastName" class="error"></p>
+
+      <label>What is your SSN?</label>
+      <input type="text" name="ssn" placeholder="Format: xxx-xx-xxxx"><br>
+      <p id="errorMessageSSN" class="error"></p>
+
+      <button type="button" value="Submit" onclick="validateForm()">Get Results</button>
+
+    </form>
+    <p id="regularMessage" class="regularMessage">Thank you for your submission! I don't know about your future but mine is going to be great!</p>
+    <p id="tomatoHaterMessage" class="message">And shame on you, tomato-hater!</p>
+    <p id="earthLoverMessage" class="message">And I hope you saved a lot of money not driving!</p>
+    <p id="goTomatoesMessage" class="message">Go tomatoes!</p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="javascript/myJavascript.js"></script>
+  </body>
+  <footer>
+  <footer>
+</html>
